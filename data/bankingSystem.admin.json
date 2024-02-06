@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "65c1eebd654f75c9a6425d68"
+  },
+  "name": "John",
+  "email": "www.kfhvfgd@gmail.com",
+  "phoneNumber": "212 555-1234",
+  "username": "jcnduchjd",
+  "password": "hfuhy74",
+  "age": 25,
+  "status": "manager",
+  "address": {
+    "streetAddress": "21 2nd Street",
+    "city": "New York",
+    "postalCode": "10021"
+  }
+}]

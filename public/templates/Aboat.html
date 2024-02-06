@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #007bff;
+            color: #000000;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #f8f9fa;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        .hero {
+            background-image: url('bank-hero.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #000000;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+        .feature {
+            flex: 1;
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+        .feature h2 {
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+        .feature p {
+            font-size: 16px;
+        }
+        footer {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bank Name</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/public/templates/home.html">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="hero">
+        <div>
+            <h1 >Welcome to Our Bank</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, iste delectus ratione optio assumenda quaerat maxime labore tempora dolorum ex laboriosam nisi at deserunt molestias id veniam doloribus animi repellendus?</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="features">
+            <div class="feature">
+                <h2>Secure Transactions</h2>
+                <p>Our advanced security measures ensure your transactions are safe and protected.</p>
+            </div>
+            <div class="feature">
+                <h2>Convenient Services</h2>
+                <p>Enjoy convenient banking services anytime, anywhere with our online and mobile platforms.</p>
+            </div>
+            <div class="feature">
+                <h2>Expert Support</h2>
+                <p>Our dedicated team of experts is available to provide assistance and support whenever you need it.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Bank Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>

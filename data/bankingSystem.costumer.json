@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "65c1eefe654f75c9a6425d6b"
+  },
+  "name": "ali",
+  "email": "www.mkjdj@gmail.com",
+  "phoneNumber": "212 555-1234",
+  "username": "kmdijiksj",
+  "password": "89u86",
+  "age": 25,
+  "address": {
+    "streetAddress": "21 2nd Street",
+    "city": "New York",
+    "postalCode": "10021"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c1ef34654f75c9a6425d6d"
+  },
+  "name": "maryam",
+  "email": "www.jfjkd@gmail.com",
+  "phoneNumber": "212 555-1234",
+  "username": "ikjwsd",
+  "password": "kjfkiji",
+  "age": 77,
+  "address": {
+    "streetAddress": "jnnjdkc",
+    "city": "ncjdkjc",
+    "postalCode": "8654"
+  }
+}]

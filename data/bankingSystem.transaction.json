@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "65c1b7f5654f75c9a6425d4c"
+  },
+  "status": "deposit",
+  "amount": 878
+},
+{
+  "_id": {
+    "$oid": "65c1b809654f75c9a6425d4e"
+  },
+  "status": "withdraw",
+  "amount": 500
+},
+{
+  "_id": {
+    "$oid": "65c1b81e654f75c9a6425d50"
+  },
+  "status": "transport",
+  "amount": 13
+}]
